@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/', // تأكد من إضافة هذا السطر
   plugins: [react()],
+  base: './', // جرّب وضع "./" بدلاً من "/"
 })
